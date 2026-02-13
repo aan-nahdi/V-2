@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Enter Emotional Gym</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body style="display:flex;justify-content:center;align-items:center;height:100vh;text-align:center;">
+
+<div>
+<h2>Pause.</h2>
+<p>Take one breath before entering.</p>
+<div class="button" onclick="enter()">Enter Emotional Gym</div>
+</div>
+
+<script>
+function enter(){
+document.body.style.opacity="0";
+setTimeout(()=>{window.location.href="home.html";},800);
+}
+</script>
+
+</body>
+</html>
